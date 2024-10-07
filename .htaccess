@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^dosen/?$ dosen.php [NC,L]
+RewriteRule ^dosen/([0-9]+)/?$ dosen.php?id_dosen=$1 [NC,L]
